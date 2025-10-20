@@ -33,25 +33,18 @@ public class BankAccount {
     }
 
 
-             public void withdraw(double amount)
- {
+    public void withdraw(double amount)
+    {
          double newBalance = balance - amount;
          balance = newBalance;
-         }
+    }
 
-         /**
- 45: Gets the current balance of the bank account.
- 46: @return the current balance
- 47: */
-         public double getBalance()
- {
+    public double getBalance()
+    {
          return balance;
-        }
-private double balance;
+    }
 
+    private int accountNumber;
+    private double balance;
 }
 
-        /**
- 35: Withdraws money from the bank account.
- 36: @param amount The amount to withdraw
-    */
